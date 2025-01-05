@@ -10,9 +10,15 @@ function CreaterHtml(data){
         <div class="headerPost">
             <div class="myChallenge">
                 <h4 class="tiitleLink"><a href="./src/Pages/Posts.html?id=${data.Id}">${data.title}</a></h4>
-                <span class="descriptionTitle">${data.description.substring(0, 100)}</span><br>
+                <span class="descriptionTitle">${data.descriptionTitle}</span><br>
                 <b>Tags: </b><span>${data.tags}</span><br>
                 <div>${data.tagsDesafios}</d>
+                <div>Status:<span style="
+    background: #ccc;
+    padding: 3px;
+    border-radius: 8px;
+    font-size: 15px;
+">${data.status}</span> </div>
             </div>
         </div>
     </div>
