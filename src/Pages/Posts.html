@@ -1,8 +1,13 @@
 <html>
 <head>
     <title>Vitor Giovanny</title>
-    <link rel="stylesheet" href="src/css/style.css" />
-    <script type="module" src="src/js/main.js"></script>
+    <link rel="stylesheet" href="../css/style.css" />
+    <script type="module">
+            import AddPage from '../js/main.js';
+        var search = new URLSearchParams(location.search);
+        console.log('ola mundo')
+        AddPage(search.get('id'));
+    </script>
 </head>
 <body>
 <div class="container wrapper">
@@ -23,7 +28,9 @@
         </div>
         
     </header>
-    <div class="posts" id="post-data-json"></div>
+    <div class="posts" id="post-id-json">
+
+    </div>
 </div>
 </body>
 </html>

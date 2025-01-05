@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    font-family: "Inter", sans-serif;
+}
+
+header{
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dddddd;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.avatar{
+    float: left;
+    margin: 0 20px 0 0;        
+}
+
+.avatar img {
+    width: 64px;
+    height: 64px;
+    overflow: hidden;
+    border-radius: 100%;
+}
+
+.container{
+    max-width: 800px;
+    margin-top: 30px !important;
+}
+
+
+.description{
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper{
+    margin: 0 auto;
+}
+
+.description ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.description nav{
+    margin: 0;
+    padding: 0;
+    border: none;
+    min-width: 50px;
+    margin-left: 15px;
+}
+
+.description nav ul svg {
+    max-height: 15px;
+}
+
+.description .scheme-toggle {
+    height: 100%;
+}
+
+.description .scheme-toggle a svg {
+    max-height: 15px;
+}
+
+.description .scheme-toggle a.dark svg {
+    fill: #f8e04f;
+    color: #f8e04f;
+}
+
+.description .scheme-toggle a.light svg {
+    fill: grey;
+    color: black;
+}
+
+nav.social a {
+    color: #333;
+}
+.nav.social a:hover {
+    color: #3700ff;
+}
+
+.post{
+    margin-bottom: 10px;
+    border-bottom: 1px solid #cccccc85;
+    padding-bottom: 10px;
+}
+
+.tiitleLink{
+
+}
+
+.tiitleLink a{
+    text-decoration: none;
+    color: black;
+}
+
+.descriptionTitle{
+    color:#5e5e5e;
+}
+
+.leetcode>a{
+    background-color: #E7A41F;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.myChallenge {
+    padding: 15px;
+}
+
+.myChallenge>p {
+    padding-top: 15px;
+}
